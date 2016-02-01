@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ecf69a24b874a5149abb4b775445a1dd
-timeCreated: 1454196188
+timeCreated: 1454258381
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -113,7 +113,7 @@ TextureImporter:
         width: 106
         height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_1
       rect:
@@ -123,7 +123,7 @@ TextureImporter:
         width: 13
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_2
       rect:
@@ -133,7 +133,7 @@ TextureImporter:
         width: 13
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_3
       rect:
@@ -143,7 +143,7 @@ TextureImporter:
         width: 106
         height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_6
       rect:
@@ -153,7 +153,7 @@ TextureImporter:
         width: 13
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_7
       rect:
@@ -183,7 +183,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_11
       rect:
@@ -193,7 +193,7 @@ TextureImporter:
         width: 13
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_12
       rect:
@@ -203,7 +203,7 @@ TextureImporter:
         width: 13
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_14
       rect:
@@ -213,7 +213,7 @@ TextureImporter:
         width: 115
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_15
       rect:
@@ -223,7 +223,7 @@ TextureImporter:
         width: 96
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_16
       rect:
@@ -233,7 +233,7 @@ TextureImporter:
         width: 27
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_17
       rect:
@@ -243,7 +243,7 @@ TextureImporter:
         width: 115
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_18
       rect:
@@ -253,7 +253,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_19
       rect:
@@ -263,7 +263,7 @@ TextureImporter:
         width: 98
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_20
       rect:
@@ -273,7 +273,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_21
       rect:
@@ -283,7 +283,7 @@ TextureImporter:
         width: 99
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_22
       rect:
@@ -293,7 +293,7 @@ TextureImporter:
         width: 27
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_23
       rect:
@@ -303,7 +303,7 @@ TextureImporter:
         width: 98
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_24
       rect:
@@ -313,7 +313,7 @@ TextureImporter:
         width: 98
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_25
       rect:
@@ -323,7 +323,7 @@ TextureImporter:
         width: 43
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_26
       rect:
@@ -333,7 +333,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_27
       rect:
@@ -343,7 +343,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_28
       rect:
@@ -353,7 +353,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_29
       rect:
@@ -363,7 +363,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_34
       rect:
@@ -383,7 +383,7 @@ TextureImporter:
         width: 26
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_36
       rect:
@@ -393,7 +393,7 @@ TextureImporter:
         width: 24
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_39
       rect:
@@ -402,8 +402,8 @@ TextureImporter:
         y: 513
         width: 107
         height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .560000002, y: .349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_40
       rect:
@@ -423,7 +423,7 @@ TextureImporter:
         width: 134
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_42
       rect:
@@ -433,7 +433,7 @@ TextureImporter:
         width: 96
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_43
       rect:
@@ -443,7 +443,7 @@ TextureImporter:
         width: 147
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_44
       rect:
@@ -453,7 +453,7 @@ TextureImporter:
         width: 80
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_45
       rect:
@@ -463,7 +463,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_46
       rect:
@@ -473,7 +473,7 @@ TextureImporter:
         width: 80
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_47
       rect:
@@ -483,7 +483,7 @@ TextureImporter:
         width: 27
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_48
       rect:
@@ -493,7 +493,7 @@ TextureImporter:
         width: 52
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_49
       rect:
@@ -503,7 +503,7 @@ TextureImporter:
         width: 53
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_50
       rect:
@@ -513,7 +513,7 @@ TextureImporter:
         width: 51
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_51
       rect:
@@ -523,7 +523,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_52
       rect:
@@ -533,7 +533,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_53
       rect:
@@ -543,7 +543,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_54
       rect:
@@ -553,7 +553,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_55
       rect:
@@ -563,7 +563,7 @@ TextureImporter:
         width: 43
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_56
       rect:
@@ -573,7 +573,7 @@ TextureImporter:
         width: 43
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_57
       rect:
@@ -583,7 +583,7 @@ TextureImporter:
         width: 43
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_58
       rect:
@@ -593,7 +593,7 @@ TextureImporter:
         width: 44
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_59
       rect:
@@ -603,7 +603,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_60
       rect:
@@ -613,7 +613,7 @@ TextureImporter:
         width: 26
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_61
       rect:
@@ -623,7 +623,7 @@ TextureImporter:
         width: 100
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_62
       rect:
@@ -633,7 +633,7 @@ TextureImporter:
         width: 100
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_63
       rect:
@@ -643,7 +643,7 @@ TextureImporter:
         width: 63
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_64
       rect:
@@ -653,7 +653,7 @@ TextureImporter:
         width: 87
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: PopleAtlas_65
       rect:
@@ -663,7 +663,7 @@ TextureImporter:
         width: 89
         height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
