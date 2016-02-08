@@ -8,7 +8,6 @@ public class Platform : MonoBehaviour {
 	public float maxEextentY;
 	// Use this for initialization
 	void Start () {
-		Debug.Log (this.GetComponent<BoxCollider2D>().bounds.extents);
 		maxEextentY = (this.GetComponent<BoxCollider2D>().bounds.extents).y;
 	}
 	

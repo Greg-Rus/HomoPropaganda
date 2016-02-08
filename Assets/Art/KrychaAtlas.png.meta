@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 69e5a55146ab2d44aad276c7758efd0c
+timeCreated: 1454443807
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KrychaAtlas_0
+    21300002: KrychaAtlas_1
+    21300004: KrychaAtlas_2
+    21300006: KrychaAtlas_3
+    21300008: KrychaAtlas_4
+    21300010: KrychaAtlas_5
+    21300012: KrychaAtlas_6
+    21300014: KrychaAtlas_7
+    21300016: KrychaAtlas_8
+    21300018: KrychaAtlas_9
+    21300020: KrychaAtlas_10
+    21300022: KrychaAtlas_11
+    21300024: KrychaAtlas_12
+    21300026: KrychaAtlas_13
+    21300028: KrychaAtlas_14
+    21300030: KrychaAtlas_15
+    21300032: KrychaAtlas_16
+    21300034: KrychaAtlas_17
+    21300036: KrychaAtlas_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KrychaAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 920
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 946
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 990
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1005
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 945
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 779
+        width: 161
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 912
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 795
+        width: 157
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 349
+        width: 427
+        height: 411
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 752
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 493
+        width: 72
+        height: 177
+      alignment: 9
+      pivot: {x: .821984172, y: .00727852853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 495
+        width: 54
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 393
+        width: 115
+        height: 71
+      alignment: 9
+      pivot: {x: .306800902, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 273
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 239
+        width: 142
+        height: 135
+      alignment: 9
+      pivot: {x: .663496017, y: .643400073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 342
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 159
+        width: 122
+        height: 66
+      alignment: 9
+      pivot: {x: .237774953, y: .681769192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 81
+        width: 144
+        height: 51
+      alignment: 9
+      pivot: {x: .183504313, y: .465225816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KrychaAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 21
+        width: 36
+        height: 45
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

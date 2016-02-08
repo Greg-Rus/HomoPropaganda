@@ -51,10 +51,16 @@
      <Compile Include="Assets\Scripts\ControllingCameraAspectScript.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GlamDudeController.cs" />
+     <Compile Include="Assets\Scripts\KrychaController.cs" />
+     <Compile Include="Assets\Scripts\KrychaGunController.cs" />
+     <Compile Include="Assets\Scripts\ParticleSystemPlayer.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\ProjectileMovement.cs" />
      <Compile Include="Assets\Scripts\RandomDudeController.cs" />
+     <Compile Include="Assets\Scripts\RandomParticleColor.cs" />
      <Compile Include="Assets\Scripts\SpriteRenderOrderSetter.cs" />
      <Compile Include="Assets\Scripts\Utilities.cs" />
+     <Compile Include="Assets\cartoon_comic_onomatopoeia\Scripts\ParticleTester_cartoon_comic_onomatopoeia.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -124,6 +130,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\cartoon_comic_onomatopoeia\readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />

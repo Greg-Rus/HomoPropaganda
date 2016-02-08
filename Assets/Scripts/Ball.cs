@@ -6,6 +6,8 @@ public class Ball : MonoBehaviour {
 	public Vector3 direction;
 	public float speed;
 	public float gravityModifier = 0.1f;
+	public float velocityMag;
+	public float correctiveAcceleration = 300f;
 	Rigidbody2D myRigidBody;
 	// Use this for initialization
 	void Start () {
@@ -18,6 +20,15 @@ public class Ball : MonoBehaviour {
 	void Update () {
 		//Vector3 newPosition = transform.position + direction * speed * Time.deltaTime;
 		//transform.position = newPosition;
+		velocityMag = myRigidBody.velocity.magnitude;
+		if(velocityMag < 20f)
+		{
+			myRigidBody.AddRelativeForce(myRigidBody.velocity * correctiveAcceleration);
+		}
+		if(velocityMag > 21f)
+		{
+			myRigidBody.AddRelativeForce(myRigidBody.velocity * -correctiveAcceleration);
+		}
 	}
 	
 	void OnCollisionEnter2D(Collision2D coll) {
