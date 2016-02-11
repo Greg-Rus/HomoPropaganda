@@ -7,28 +7,14 @@ public class GameController : MonoBehaviour {
 	public Text scoreMultiplyerField;
 	public int score = 0;
 	public int scoreMultiplyer = 1;
-	public GameObject OponentGroupPrefab;
-	public GameObject OponentGroupInstance;
+	public GameObject OponentGroup;
 	private int oponentsLeft = 1;
 	public GameObject Boss;
-	public GameObject BossPrefab;
-	public GameObject JustKrycha;
-	public GameObject JustKrychaPrefab;
 	public RectTransform BossPanel;
-	//private Animator bossPanelAnimator;
+	private Animator bossPanelAnimator;
 	private Animator canvasAnimator;
 	private Slider bossHPSlider;
 	public Canvas canvas;
-	public GameObject MainMenuBackgroundPanel;
-	public GameObject MainMenu;
-	public GameObject VictoryPanel;
-	public bool gamePaused = false;
-	public bool gameStarted = false;
-	public Ball ball;
-	//public GameObject ballPrefab;
-	//private GameObject ballInstance;
-	public Platform Player;
-	
 	
 	
 	public static GameController instance;
@@ -40,34 +26,13 @@ public class GameController : MonoBehaviour {
 	}
 	void Start () {
 		UpdateUI();
-		
-		//bossPanelAnimator = BossPanel.GetComponent<Animator>();
+		//oponentsLeft = OponentGroup.transform.childCount;
+		bossPanelAnimator = BossPanel.GetComponent<Animator>();
 		bossHPSlider = BossPanel.GetComponentInChildren<Slider>();
 		canvasAnimator = canvas.GetComponent<Animator>();
-		Time.timeScale = 0f;
 	}
 	
 	// Update is called once per fram
-	void Update ()
-	{
-
-		if(Input.GetKeyDown(KeyCode.Escape))
-		{
-			if(!gamePaused && gameStarted)
-			{
-				MainMenu.SetActive(true);
-				Time.timeScale = 0f;
-				gamePaused = true;
-			}
-			else if(gamePaused && gameStarted)
-			{
-				MainMenu.SetActive(false);
-				Time.timeScale = 1f;
-				gamePaused = false;
-			}
-			
-		}
-	}
 	
 	public void OponentGlamorized(int HP)
 	{
@@ -102,6 +67,7 @@ public class GameController : MonoBehaviour {
 	
 	public void BossHit(float percentHP)
 	{
+		Debug.Log ("PercentHP: " + percentHP);
 		if(percentHP > 0)
 		{
 			bossHPSlider.value = percentHP;
@@ -112,112 +78,8 @@ public class GameController : MonoBehaviour {
 			VoctoryState();
 		}
 	}
-	
-	public void PlayerInerceptedBossProjectile()
-	{
-		score += 10 * scoreMultiplyer;
-		scoreMultiplyer++;
-		UpdateUI();
-	}
-	
-	public void BossHitFlag()
-	{
-		scoreMultiplyer = 1;
-		score -= 1000;
-		if(score < 0)
-		{
-		 score = 0;
-		}
-		UpdateUI();
-	}
 	private void VoctoryState()
 	{
-		canvasAnimator.SetTrigger("BossRoundEnd");
 		Boss.SetActive(false);
-		JustKrycha = Instantiate(JustKrychaPrefab, Boss.transform.position, Quaternion.identity) as GameObject;
-		
-	}
-	
-	public void UI_NewGameStart()
-	{
-		
-		MainMenuBackgroundPanel.SetActive(false);
-		MainMenu.SetActive(false);
-		gameStarted = true;
-		gamePaused = false;
-		Time.timeScale = 1f;
-		VictoryPanel.SetActive(false);
-		PlaceOponents();
-		//oponentsLeft = OponentGroupInstance.transform.childCount;
-		ClearScore();
-		ball.Reset();
-		//PlaceBall();
-		Player.Reset();
-	}
-	
-	public void OutroFinished()
-	{
-		VictoryPanel.SetActive(true);
-		MainMenu.SetActive(true);
-		Time.timeScale = 0f;
-		gameStarted = false;
-	}
-/*	
-	private void PlaceBall()
-	{
-		if(ballInstance != null)
-		{
-			Destroy(ballInstance);
-		}
-		ballInstance = Instantiate(ballPrefab, new Vector3 (9f,0f,0f), Quaternion.identity) as GameObject;
-	}
-*/	
-	private void ClearScore()
-	{
-		score = 0;
-		scoreMultiplyer = 1;
-		UpdateUI();
-	}
-	
-	private void PlaceOponents()
-	{
-		if (OponentGroupInstance != null)
-		{
-			Destroy(OponentGroupInstance);
-		}
-		OponentGroupInstance = Instantiate(OponentGroupPrefab, new Vector3 (9f,0f,0f), Quaternion.identity) as GameObject;
-		
-		//if(Boss != null)
-	//	{
-	//		Destroy(Boss);
-	//	}
-	//	Boss = Instantiate(BossPrefab, new Vector3 (-30f, 0f,0f), Quaternion.identity) as GameObject;
-		
-		if(JustKrycha != null)
-		{
-			Destroy(JustKrycha);
-		}
-	}
-	
-	private void toggleMainMenu()
-	{
-		if(!gamePaused && gameStarted)
-		{
-			MainMenu.SetActive(true);
-			Time.timeScale = 0f;
-			gamePaused = true;
-		}
-		else if(gamePaused && gameStarted)
-		{
-			MainMenu.SetActive(false);
-			Time.timeScale = 1f;
-			gamePaused = false;
-		}
-	}
-	
-	public void UI_QuitGame()
-	{
-		Application.OpenURL("http://powerfantasygames.com/?cat=3");
-		Application.Quit();
 	}
 }

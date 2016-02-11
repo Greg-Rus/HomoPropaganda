@@ -142,6 +142,7 @@ public class KrychaController : MonoBehaviour {
 		if(coll.gameObject.tag == "Ball")
 		{
 			currentHP = currentHP - 10f;
+			Debug.Log ("Normal Hit" + currentHP);
 			ContactPoint2D[] contacts = coll.contacts;
 			foreach(ContactPoint2D contact in contacts)
 			{
@@ -149,6 +150,7 @@ public class KrychaController : MonoBehaviour {
 				if(contact.otherCollider.tag == "BossVulnerability")
 				{
 					currentHP = currentHP - 20f;
+					Debug.Log ("Vulnerability Hit" + currentHP);
 				}
 			}
 		}

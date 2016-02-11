@@ -19,11 +19,11 @@ public class ProjectileMovement : MonoBehaviour {
 	{
 		if(coll.gameObject.tag == "Player")
 		{
-			GameController.instance.PlayerInerceptedBossProjectile();
+			//Debug.Log ("Krycha hit player");
 		}
 		else if(coll.gameObject.tag == "Wall")
 		{
-			GameController.instance.BossHitFlag();
+			//Debug.Log ("Krycha hit wall");
 		}
 		else{
 		}

@@ -30,8 +30,7 @@ public class RandomDudeController : MonoBehaviour {
 	private void Glamorize()
 	{
 		GameController.instance.OponentGlamorized(hatePoints);
-		GameObject newInstance =  Instantiate(GlamVersion, this.transform.position, Quaternion.identity) as GameObject;
-		newInstance.transform.parent = this.transform.parent;
+		Instantiate(GlamVersion, this.transform.position, Quaternion.identity);
 		Destroy(this.gameObject);
 		//Instantiate(loveBurst, this.transform.position, Quaternion.identity);
 		Destroy (Instantiate(loveBurst, this.transform.position, Quaternion.identity), 1f);
