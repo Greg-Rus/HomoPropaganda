@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\ControllingCameraAspectScript.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GlamDudeController.cs" />
+     <Compile Include="Assets\Scripts\JustKrychaController.cs" />
      <Compile Include="Assets\Scripts\KrychaController.cs" />
      <Compile Include="Assets\Scripts\KrychaGunController.cs" />
      <Compile Include="Assets\Scripts\ParticleSystemPlayer.cs" />
