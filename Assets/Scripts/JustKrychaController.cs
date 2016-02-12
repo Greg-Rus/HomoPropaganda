@@ -16,7 +16,7 @@ public class JustKrychaController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(myAnimator.GetCurrentAnimatorStateInfo(0).IsName("KrychaRun"))
+		if(myAnimator.GetCurrentAnimatorStateInfo(0).IsName("JustKrychaRun"))
 		{
 			time = time + (Time.deltaTime / runTime);
 			transform.position = Vector3.Lerp(startPosition, escapePosition, time);

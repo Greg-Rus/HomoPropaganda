@@ -26,7 +26,13 @@ public class KrychaController : MonoBehaviour {
 //	private ParticleSystemPlayer LeftGunShotFX;
 	private KrychaGunController rightGunController;
 	private KrychaGunController leftGunController;
+	private Vector3 startPosition;
 	// Use this for initialization
+	void Awake()
+	{
+		startPosition = this.transform.position;
+	}
+	
 	void Start () {
 		currentWaypointIndex = 0;
 		currentAction = GoToWaypoint;
@@ -37,16 +43,26 @@ public class KrychaController : MonoBehaviour {
 		currentHP = maxHP;
 		rightGunController = LeftGun.GetComponent<KrychaGunController>();
 		leftGunController = RightGun.GetComponent<KrychaGunController>();
+		
 //		RightGunShotFX = RightGun.GetComponentInChildren<ParticleSystemPlayer>();
 //		LeftGunShotFX = LeftGun.GetComponentInChildren<ParticleSystemPlayer>();
 //		if(RightGunShotFX == null || LeftGunShotFX == null) Debug.LogError("ParticlePlayers not found");
 	}
+	void OnEnable() {
+		this.transform.position = startPosition;
+		nextLeftShotTime = Time.timeSinceLevelLoad + reloadTime*3; //TODO The *3 is to delay the shot until Krycha enters the arena. Need to do this in a proper way.
+		nextRightShotTime = Time.timeSinceLevelLoad + reloadTime*3 + reloadTime * 0.5f;
+		currentHP = maxHP;
+	}
+	
+	
 	
 	// Update is called once per frame
 	void Update () {
 		currentAction();
 		UpdateGuns();
 	}
+	
 	
 	private void UpdateGuns()
 	{

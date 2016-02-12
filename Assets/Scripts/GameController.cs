@@ -115,9 +115,9 @@ public class GameController : MonoBehaviour {
 	
 	public void PlayerInerceptedBossProjectile()
 	{
-		score += 10 * scoreMultiplyer;
-		scoreMultiplyer++;
-		UpdateUI();
+		//score += 10 * scoreMultiplyer;
+		//scoreMultiplyer++;
+		//UpdateUI();
 	}
 	
 	public void BossHitFlag()
@@ -140,7 +140,7 @@ public class GameController : MonoBehaviour {
 	
 	public void UI_NewGameStart()
 	{
-		
+		bossHPSlider.value = 1f;
 		MainMenuBackgroundPanel.SetActive(false);
 		MainMenu.SetActive(false);
 		gameStarted = true;
@@ -149,6 +149,7 @@ public class GameController : MonoBehaviour {
 		VictoryPanel.SetActive(false);
 		PlaceOponents();
 		//oponentsLeft = OponentGroupInstance.transform.childCount;
+		oponentsLeft = 1; //TODO use thoe one above
 		ClearScore();
 		ball.Reset();
 		//PlaceBall();
