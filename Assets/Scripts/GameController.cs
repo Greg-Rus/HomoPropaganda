@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour {
 	public GameObject BossPrefab;
 	public GameObject JustKrycha;
 	public GameObject JustKrychaPrefab;
+	public GameObject BigExplosion;
 	public RectTransform BossPanel;
 	//private Animator bossPanelAnimator;
 	private Animator canvasAnimator;
@@ -25,9 +26,11 @@ public class GameController : MonoBehaviour {
 	public bool gamePaused = false;
 	public bool gameStarted = false;
 	public Ball ball;
+	private MusicHandler music;
 	//public GameObject ballPrefab;
 	//private GameObject ballInstance;
 	public Platform Player;
+
 	
 	
 	
@@ -45,6 +48,7 @@ public class GameController : MonoBehaviour {
 		bossHPSlider = BossPanel.GetComponentInChildren<Slider>();
 		canvasAnimator = canvas.GetComponent<Animator>();
 		Time.timeScale = 0f;
+		music = GetComponentInChildren<MusicHandler> ();
 	}
 	
 	// Update is called once per fram
@@ -86,6 +90,7 @@ public class GameController : MonoBehaviour {
 		//bossPanelAnimator.SetTrigger("Active");
 		canvasAnimator.SetTrigger("BossRoundStart");
 		Boss.SetActive(true);
+		music.PlayBossMusic ();
 	}
 	
 	public void BallHitWall()
@@ -134,6 +139,8 @@ public class GameController : MonoBehaviour {
 	{
 		canvasAnimator.SetTrigger("BossRoundEnd");
 		Boss.SetActive(false);
+		GameObject explosion = Instantiate (BigExplosion, Boss.transform.position, Quaternion.identity) as GameObject;
+		Destroy (explosion, 2f);
 		JustKrycha = Instantiate(JustKrychaPrefab, Boss.transform.position, Quaternion.identity) as GameObject;
 		
 	}
@@ -148,12 +155,13 @@ public class GameController : MonoBehaviour {
 		Time.timeScale = 1f;
 		VictoryPanel.SetActive(false);
 		PlaceOponents();
-		//oponentsLeft = OponentGroupInstance.transform.childCount;
-		oponentsLeft = 1; //TODO use thoe one above
+		oponentsLeft = OponentGroupInstance.transform.childCount;
+		//oponentsLeft = 1; //TODO use thoe one above
 		ClearScore();
 		ball.Reset();
 		//PlaceBall();
 		Player.Reset();
+		music.PlayStandardMusic ();
 	}
 	
 	public void OutroFinished()
@@ -218,7 +226,10 @@ public class GameController : MonoBehaviour {
 	
 	public void UI_QuitGame()
 	{
-		Application.OpenURL("http://powerfantasygames.com/?cat=3");
+		#if UNITY_WEBPLAYER
+		Application.OpenURL("http://powerfantasygames.com/?p=51");
+		#endif 
+
 		Application.Quit();
 	}
 }

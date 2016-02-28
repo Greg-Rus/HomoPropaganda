@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512mm"
+   height="128mm"
+   viewBox="0 0 1814.1732 453.54331"
+   id="svg5217"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Banner.svg">
+  <defs
+     id="defs5219">
+    <filter
+       inkscape:label="Inset"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       style="color-interpolation-filters:sRGB;"
+       id="filter6182">
+      <feMorphology
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         radius="3.6"
+         id="feMorphology6184" />
+      <feGaussianBlur
+         stdDeviation="3.6"
+         in="result1"
+         result="result0"
+         id="feGaussianBlur6186" />
+      <feDiffuseLighting
+         surfaceScale="-5"
+         id="feDiffuseLighting6188">
+        <feDistantLight
+           elevation="45"
+           azimuth="225"
+           id="feDistantLight6190" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result0"
+         operator="in"
+         result="result91"
+         id="feComposite6192" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result91"
+         id="feComposite6194" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="425.78037"
+     inkscape:cy="60.177692"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5222">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-598.8189)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5225"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6182)"
+       transform="matrix(1.1731676,0,0,1.926663,-24.289746,543.00309)"><flowRegion
+         id="flowRegion5227"><rect
+           id="rect5229"
+           width="1754.2858"
+           height="385.71429"
+           x="31.428572"
+           y="36.400448"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'" /></flowRegion><flowPara
+         id="flowPara5231"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:180px;line-height:100%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"><flowSpan
+           style="fill:#ff0000"
+           id="flowSpan5233">H</flowSpan><flowSpan
+           style="fill:#ff6600"
+           id="flowSpan5235">o</flowSpan><flowSpan
+           style="fill:#ffff00"
+           id="flowSpan5237">m</flowSpan><flowSpan
+           style="fill:#00ff00"
+           id="flowSpan5239">o</flowSpan><flowSpan
+           style="fill:#0000ff"
+           id="flowSpan5241"> P</flowSpan><flowSpan
+           style="fill:#ff00ff"
+           id="flowSpan5243">r</flowSpan><flowSpan
+           style="fill:#ff0000"
+           id="flowSpan5245">o</flowSpan><flowSpan
+           style="fill:#ff6600"
+           id="flowSpan5247">p</flowSpan><flowSpan
+           style="fill:#ffff00"
+           id="flowSpan5249">a</flowSpan><flowSpan
+           style="fill:#00ff00"
+           id="flowSpan5251">g</flowSpan><flowSpan
+           style="fill:#0000ff"
+           id="flowSpan5253">a</flowSpan><flowSpan
+           style="fill:#ff00ff"
+           id="flowSpan5255">n</flowSpan><flowSpan
+           style="fill:#ff0000"
+           id="flowSpan5257">d</flowSpan><flowSpan
+           style="fill:#ff6600"
+           id="flowSpan5259">a</flowSpan></flowPara></flowRoot>    <g
+       id="g6175"
+       transform="matrix(0.99536432,-0.09617624,0.09617624,0.99536432,-97.321646,41.137416)">
+      <rect
+         ry="26.263966"
+         y="953.36725"
+         x="346.48233"
+         height="87.88327"
+         width="444.46713"
+         id="rect5329"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none" />
+      <flowRoot
+         transform="matrix(1.2598223,0,0,1.6410719,-96.370017,335.65401)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5871"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5873"><rect
+             y="369.70065"
+             x="376.7869"
+             height="60.609154"
+             width="383.85797"
+             id="rect5875" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#ff0000"
+           id="flowPara5877">PROTOTYP</flowPara></flowRoot>    </g>
+  </g>
+</svg>

@@ -11,6 +11,7 @@ public class AudioFXController : MonoBehaviour {
 	public AudioClip hit2;
 	
 	public AudioSource audio;
+	public float volume = 1f;
 	
 	public static AudioFXController instance;
 	// Use this for initialization
@@ -43,5 +44,15 @@ public class AudioFXController : MonoBehaviour {
 		case 2: audio.PlayOneShot(hit2); break;
 		default: audio.PlayOneShot(hit1); break;
 		}
+	}
+
+	public void SetFXVolume()
+	{
+		audio.volume = volume;
+	}
+
+	public void SetFXVolumeByValue(float volume)
+	{
+		audio.volume = volume;
 	}
 }

@@ -10,6 +10,7 @@ public class Platform : MonoBehaviour {
 	private Ball ballController;
 	private Rigidbody2D ballRigidBody;
 	private Vector3 startPosition;
+	public Animator genderAnimator;
 	// Use this for initialization
 	void Start () {
 		maxEextentY = (this.GetComponent<BoxCollider2D>().bounds.extents).y;
@@ -96,7 +97,7 @@ public class Platform : MonoBehaviour {
 			ballController.SetVelocity(direction * ballBoostPower);
 			//ball.gravityScale = 0f;
 			//ball.velocity = direction * ballBoostPower;
-			
+			genderAnimator.SetTrigger("Serve");
 			
 			//coll.gameObject.GetComponent<Rigidbody2D>().AddForce(direction * ballBoostPower, ForceMode2D.Impulse);
 			
